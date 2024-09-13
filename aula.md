@@ -1,82 +1,84 @@
-## Linguagem de programação 
+## Linguagem de programação
 
 Maneira de dar instrução ao computador.
 Como um lego, você irá utilizar peças para criar algoritmos, ou seja, para resolver problemas.
 
-**Algoritmos**: Sequência de passos lógicos e finita para resolução de um problema.
+> 💡 **Algoritmo**: Sequência de passos lógica e finita para resolução de um problema.
 
 ## Peças de uma linguagem
 
-- Comentários 
+- Comentários
 - Declaração de variáveis (const, let)
-- Operadores (atribuição, concatenação, matemáticos, lógicos)
-- tipos de dados (string, number, boolean)
-- estrutura de dados (functions, object, array)
-- controle de fluxo (if/else)
-- estrutura de repetição (for, while)
+- Operadores (atribuição, concatenação, matemáticos, lógicos )
+- Tipos de dados (string, number, boolean)
+- Estrutura de dados (functions, object, array)
+- Controle de fluxo (if/else)
+- Estrutura de repetição (for, while)
 
-# Fases de resolução de um problema 
+# Fases da resolução de um problema
 
 Coletar os dados
 Processar os dados (manipular, alterar ...)
-Apresentar dados 
+Apresentar os dados
 
 ## Escopo e variáveis:
 
-Variáveis globais e locais 
-Constantes 
+- [x] Variáveis globais e locais
+- [x] Constantes
 
 ## Tipos de dados:
 
-Strings (textos): "" '' ``
-Number: 2 1.4
-Function
+- [x] Strings (texto): "" '' ``
+- [x] Numbers: 2 1.4
+- [x] Boolean: true, false
 
-## Operadores 
+# Operadores
 
-Operadores de atribuição de valor: =
-Operador de contatenação: + 
-Operadores de comparação == != <= >= < >
+- [x] Operadores de atribuição de valor: =
+- [x] Operador de contatenação: +
+- [x] Operadores de comparação: == != <= >= < >
+- [x] Spread operator: ...
 
-## Estrutura de dados 
+## Estruturas de dados:
 
-### Arrays:
+### Arrays: 
 
-Uma lista que contém qualquer tipo de dado
-Métodos de array: push, find, forEach
+- [x] Uma lista que contém qualquer tipo de dado
+- [x] Métodos de array: push, [find, forEach, filter, map] : HOF (Higher Order Functions)
 
-### Objetos: 
+### Objetos:
 
-Atributos e métodos 
-Criação e manipulação de objetos
-Acesso a propriedades de objetos 
+- [x] Atributos e métodos
+- [x] Criação e manipulação de objetos
+- [x] Acesso a propriedades de objetos
 
-### Functions 
+### Functions
 
-- criar 
-- executar
-- arrow function / named function 
-
-function / arrow function 
-
-const criarMeta = () => {}
-
-function criarMeta() {}
+- [x] criar, passar argumento
+- [x] excutar
+- [x] arrow function / named function
 
 # Estrutura de repetição
 
-- while
+- [x] while
 
-# Condicionais 
+# Condicionais
 
-- switch
-- if/else
+- [x] switch
+- [x] if/else
 
 ## Módulos em Node.js:
 
-Importação de módulos  (require,CommonJS)
-Biblioteca 'inquirer' para criar prompts interativos
+- [x] Importação de módulos (require, CommonJS)
+- [x] Biblioteca 'inquirer' para criar prompts interativos
+- [x] FS (file system)
+
+## JSON
+
+- [x] Javascript Object Notation (.json)
+- [x] JSON.parse(): transforma de JSON para JS
+- [x] JSON.stringify(): transforma de JS para JSON
 
 ## Programação assíncrona e Promises:
 
-Uso de funções assíncronas (async/await)
+- [x] Uso de funções assíncronas (async/await)
